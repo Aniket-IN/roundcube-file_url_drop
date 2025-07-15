@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (attachmentArea) {
     attachmentArea.addEventListener("drop", async function (event) {
       event.preventDefault();
+
+      if (e.dataTransfer.getData("roundcube-uri")) {
+        return;
+      }
+
       const droppedFileUrl = event.dataTransfer.getData("text/plain");
 
       if (!droppedFileUrl) {
