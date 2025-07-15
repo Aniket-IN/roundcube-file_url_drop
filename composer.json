@@ -1,5 +1,5 @@
 {
-  "name": "roundcube/file_url_drop",
+  "name": "aniket-in/file_url_drop",
   "type": "roundcube-plugin",
   "description": "Enable drag-and-drop of remote links to download and attach files.",
   "version": "1.0",
