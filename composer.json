@@ -2,7 +2,7 @@
   "name": "aniket-in/file_url_drop",
   "type": "roundcube-plugin",
   "description": "Enable drag-and-drop of remote links to download and attach files.",
-  "version": "1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://github.com/Aniket-IN/roundcube-file_url_drop/",
   "authors": [
@@ -12,11 +12,7 @@
       "role": "Developer"
     }
   ],
-  "keywords": [
-    "attachments",
-    "drag-and-drop",
-    "file"
-  ],
+  "keywords": ["attachments", "drag-and-drop", "file"],
   "repositories": [
     {
       "type": "composer",
